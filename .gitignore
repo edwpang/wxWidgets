@@ -416,3 +416,10 @@
 
 # /utils/wxrc/
 /utils/wxrc/*.sln
+*.opendb
+*.sqlite-journal
+/.vs/wxWidgets/v15/.suo
+/.vs/wxWidgets/v15/Browse.VC.db
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
+/.vs/ProjectSettings.json
