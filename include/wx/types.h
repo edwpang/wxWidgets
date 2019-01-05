@@ -384,7 +384,11 @@ typedef wxUint32 wxDword;
        to wxIntPtr (which we do often as this is what it is defined for) in 32
        bit build with MSVC.
      */
-    typedef wxW64 ssize_t wxIntPtr;
+#ifdef _WIN64
+    typedef ssize_t wxIntPtr;
+#else
+typedef wxW64 ssize_t wxIntPtr;
+#endif 
     typedef size_t wxUIntPtr;
 #else
     /*
