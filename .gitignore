@@ -423,3 +423,9 @@
 /.vs/slnx.sqlite
 /.vs/VSWorkspaceState.json
 /.vs/ProjectSettings.json
+/tests/test.vcxproj.user
+/tests/.vs/test_vc15/v15/Solution.VC.db-wal
+/tests/.vs/test_vc15/v15/Solution.VC.db-shm
+/tests/.vs/test_vc15/v15/Solution.VC.db
+/tests/.vs/test_vc15/v15/Browse.VC.db
+/tests/.vs/test_vc15/v15/.suo

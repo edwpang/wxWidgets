@@ -301,6 +301,11 @@ public:
   bool Write(const wxString& key, unsigned long value)
     { return DoWriteLong(key, value); }
 
+  bool Write(const wxString& key, unsigned long long value)
+  {
+      return DoWriteString(key, wxString::Format(wxT("%%lu"), value));  
+  }
+
   bool Write(const wxString& key, float value)
     { return DoWriteDouble(key, value); }
 
